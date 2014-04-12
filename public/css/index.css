@@ -1,0 +1,9 @@
+/* line 1, ../../sass/index.sass */
+body {
+  background-color: gray;
+}
+
+/* line 3, ../../sass/index.sass */
+div {
+  border: 1px solid black;
+}

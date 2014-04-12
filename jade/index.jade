@@ -1,0 +1,14 @@
+doctype html5
+html(lang='utf-8')
+    head
+        title static
+        link(rel="stylesheet", href="/css/index.css")
+    body
+        h1 jade
+
+        - list = []
+        - list.push('/js/libs/jquery/jquery.js')
+        - list.push('/js/libs/underscore/underscore.js')
+        - list.push('/js/index.js')
+        each src in list
+            script(src=src, type='text/javascript')
